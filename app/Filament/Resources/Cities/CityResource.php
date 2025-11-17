@@ -20,7 +20,7 @@ use UnitEnum;
 
 class CityResource extends Resource
 {
-    protected static string | UnitEnum | null $navigationGroup = 'Regiones';
+    protected static string | UnitEnum | null $navigationGroup = 'Sistema';
 
     protected static ?int $navigationSort = 3;
 
@@ -28,7 +28,7 @@ class CityResource extends Resource
 
     protected static ?string $model = City::class;
 
-    protected static string|BackedEnum|null $navigationIcon = Heroicon::MapPin;
+    protected static string|BackedEnum|null $navigationIcon = Heroicon::BuildingOffice2;
 
     protected static ?string $recordTitleAttribute = 'name';
 
