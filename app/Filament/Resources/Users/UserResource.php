@@ -11,8 +11,9 @@ use App\Models\User;
 use BackedEnum;
 use Filament\Resources\Resource;
 use Filament\Schemas\Schema;
-use Filament\Support\Icons\Heroicon;
+use Filament\Support\Icons\HeroIcon;
 use Filament\Tables\Table;
+
 
 class UserResource extends Resource
 {
