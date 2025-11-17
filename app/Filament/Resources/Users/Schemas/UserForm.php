@@ -84,6 +84,12 @@ class UserForm
                                     ->searchable()
                                     ->preload()
                                     ->required(),
+                                TextInput::make('address_line_1')
+                                    ->label('Direccion 1'),
+                                TextInput::make('address_line_2')
+                                    ->label('Direccion 2'),
+                                TextInput::make('postal_code')
+                                    ->label('Codigo postal'),
                             ])
                     ])
             );
